@@ -1,0 +1,60 @@
+{
+  "name": "avl-components",
+  "description": "avl中常用组件抽取",
+   "keywords": [
+    "vue",
+    "avl",
+    "components"
+  ],
+  "bin": {
+    "avl-components": "./lib/avl-components.common.js"
+  },
+  "version": "0.0.0",
+  "author": "BIgShark<lixu@antiy.cn>",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/avl-components.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name avl-components --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/recommended",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
