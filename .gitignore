@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 examples/
-packages/
+# packages/
 public/
 
 
