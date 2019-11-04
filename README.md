@@ -3,21 +3,21 @@
 ### avl 项目前端通用组件提取（基于 vue+element）
 
 ### 组件引用方法
-通过npm安装
+
+通过 npm 安装
+
 ```
 npm install avl-components -S
 ```
+
 在 vue 项目 main.js 里面引入(目前没有做按需加载 默认全局引入)
 
 ```
 import AvlComponents from "avl-components";
 Vue.use(AvlComponents);
 ```
-
-###
-
-###下面是具体组件使用方法
-####1.avl-tabel（表格组件）
+### 下面是具体组件使用方法
+#### 1.avl-tabel（表格组件）
 全局引入之后 默认注册了 vue 全局组件 使用如下
 
 ```
@@ -165,7 +165,7 @@ export const requestParamsOrData = {
 ```
 
 avl-tabel 使用注意事项 1.自定义列内容使用时默认数据 slot-scope="props" 使用方法为 props.scope.row.xx
-####2.avl-form（表单组件）
+#### 2.avl-form（表单组件）
 
 ```
 下面是一个自定义表单的使用例子
@@ -359,4 +359,4 @@ export const formConfig = [
 
 ```
 
-avl-tabel 使用注意事项 1.数据源需要后台请求时可以参照avl-select配置
+avl-tabel 使用注意事项 1.数据源需要后台请求时可以参照 avl-select 配置
