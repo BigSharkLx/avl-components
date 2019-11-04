@@ -18,7 +18,7 @@ import minxi from "./mixin";
 export default {
   data() {
     return {
-      options: []
+      options: this.configData.defaultOptions || []
     };
   },
   mixins: [minxi],

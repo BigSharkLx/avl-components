@@ -14,6 +14,7 @@ npm install avl-components -D
 
 ```
 import AvlComponents from "avl-components";
+import "avl-components/lib/avl-components.css";
 Vue.use(AvlComponents);
 ```
 ### 下面是具体组件使用方法

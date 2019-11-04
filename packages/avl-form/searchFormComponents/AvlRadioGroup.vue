@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import minxi from './mixin'
+import minxi from "./mixin";
 export default {
   data() {
     return {
-      options:[]
-    }
+      options: this.configData.defaultOptions || []
+    };
   },
-  mixins:[minxi],
+  mixins: [minxi],
   computed: {
     propAttrs() {
       if (this.configData.showBtnStyle && this.configData.btnStyle) {
@@ -34,7 +34,7 @@ export default {
       }
     }
   },
-   async created() {
+  async created() {
     //   如果不能给初始值  那就传入一个方法去获取值
     if (
       !this.configData.defaultOptions ||
