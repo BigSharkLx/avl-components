@@ -172,8 +172,6 @@ export default {
     formatSearch() {
       let params = {};
       let data = {};
-      console.log(this.requestParamsOrData);
-
       for (let k in this.requestParamsOrData) {
         if (
           this.tableConfig.searchProp[k] &&
