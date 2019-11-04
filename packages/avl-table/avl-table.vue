@@ -66,7 +66,7 @@
 
 <script>
 export default {
-  name: "AvlTabel",
+  name: "AvlTable",
   data() {
     return {
       tableMsg: {

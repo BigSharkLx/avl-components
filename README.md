@@ -18,12 +18,12 @@ import "avl-components/lib/avl-components.css";
 Vue.use(AvlComponents);
 ```
 ### 下面是具体组件使用方法
-#### 1.avl-tabel（表格组件）
+#### 1.avl-table（表格组件）
 全局引入之后 默认注册了 vue 全局组件 使用如下
 
 ```
 下面是一个自定义表头和列内容的使用例子
- <avl-tabel
+ <avl-table
  ref="avlTable"
  :tableConfig="tableConfig"
  :requestFun="requestFun"
@@ -65,7 +65,7 @@ Vue.use(AvlComponents);
              <template slot-scope="props" slot="operation">
              xxx
              </template>
-</avl-tabel>
+</avl-table>
 
 下面是事件监听
    // 操作按钮事件监听
@@ -165,7 +165,7 @@ export const requestParamsOrData = {
 };
 ```
 
-avl-tabel 使用注意事项 1.自定义列内容使用时默认数据 slot-scope="props" 使用方法为 props.scope.row.xx
+avl-table 使用注意事项 1.自定义列内容使用时默认数据 slot-scope="props" 使用方法为 props.scope.row.xx
 #### 2.avl-form（表单组件）
 
 ```
@@ -360,4 +360,4 @@ export const formConfig = [
 
 ```
 
-avl-tabel 使用注意事项 1.数据源需要后台请求时可以参照 avl-select 配置
+avl-form 使用注意事项 1.数据源需要后台请求时可以参照 avl-select 配置

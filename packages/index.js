@@ -1,8 +1,8 @@
 // 这里是全局引入的地方
-import AvlTabel from "./avl-tabel/index";
+import AvlTable from "./avl-table/index";
 import AvlForm from "./avl-form/index";
 const components = {
-  AvlTabel,
+  AvlTable,
   AvlForm
 };
 
@@ -17,6 +17,6 @@ if (typeof window !== "undefined" && window.Vue) {
 
 export default {
   install,
-  AvlTabel,
+  AvlTable,
   AvlForm
 };

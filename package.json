@@ -9,8 +9,8 @@
   "bin": {
     "avl-components": "./lib/avl-components.common.js"
   },
-  "version": "0.0.7",
-  "author": "BIgShark<lixu@antiy.cn>",
+  "version": "0.0.8",
+  "author": "BIgShark<908130255@qq.com>",
   "license": "MIT",
   "private": false,
   "main": "lib/avl-components.common.js",
