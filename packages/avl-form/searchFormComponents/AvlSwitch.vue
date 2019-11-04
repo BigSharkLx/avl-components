@@ -16,6 +16,3 @@ export default {
  mixins:[minxi]
 };
 </script>
-
-<style lang="scss">
-</style>

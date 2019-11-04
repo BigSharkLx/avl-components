@@ -14,12 +14,12 @@
   </div>
 </template>
 <script>
-import AvlRadioGroup from "./searchFormComponents/AvlRadioGroup";
-import AvlCheckboxGroup from "./searchFormComponents/AvlCheckboxGroup";
-import AvlInput from "./searchFormComponents/AvlInput";
-import AvlSelect from "./searchFormComponents/AvlSelect";
-import AvlCascader from "./searchFormComponents/AvlCascader";
-import AvlSwitch from "./searchFormComponents/AvlSwitch";
+import avlRadioGroup from "./searchFormComponents/AvlRadioGroup";
+import avlCheckboxGroup from "./searchFormComponents/AvlCheckboxGroup";
+import avlInput from "./searchFormComponents/AvlInput";
+import avlSelect from "./searchFormComponents/AvlSelect";
+import avlCascader from "./searchFormComponents/AvlCascader";
+import avlSwitch from "./searchFormComponents/AvlSwitch";
 export default {
   name: "AvlForm",
   data() {
@@ -32,17 +32,17 @@ export default {
     }
   },
   components: {
-    "Avl-radio": AvlRadioGroup,
-    "Avl-checkbox": AvlCheckboxGroup,
-    "Avl-input": AvlInput,
-    "Avl-select": AvlSelect,
-    "Avl-cascader": AvlCascader,
-    "Avl-switch": AvlSwitch
+    "avl-radio": avlRadioGroup,
+    "avl-checkbox": avlCheckboxGroup,
+    "avl-input": avlInput,
+    "avl-select": avlSelect,
+    "avl-cascader": avlCascader,
+    "avl-switch": AvlSwitch
   }
 };
 </script>
 
-<style lang="scss">
+<style>
 .at-form--search {
   display: flex;
   align-items: center;

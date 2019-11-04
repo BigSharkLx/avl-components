@@ -7,7 +7,7 @@
 通过 npm 安装
 
 ```
-npm install avl-components -S
+npm install avl-components -D
 ```
 
 在 vue 项目 main.js 里面引入(目前没有做按需加载 默认全局引入)
