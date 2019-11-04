@@ -37,7 +37,7 @@ export default {
     "avl-input": avlInput,
     "avl-select": avlSelect,
     "avl-cascader": avlCascader,
-    "avl-switch": AvlSwitch
+    "avl-switch": avlSwitch
   }
 };
 </script>
