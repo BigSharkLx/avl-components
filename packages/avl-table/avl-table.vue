@@ -29,7 +29,6 @@
                             <!-- 自定义模板  使用slot -->
                             <template v-if="item.show === 'template'">
                                 <slot :name="item.prop" :scope="scope">
-                                    {{item.formatData?item.formatData(scope.row[item.prop]):scope.row[item.prop]}}
                                 </slot>
                             </template>
                             <!-- 正常渲染数据列 -->
