@@ -1,6 +1,6 @@
 # avl-components
 
-### avl 项目前端通用组件提取（基于 vue+element）
+### 基于vue+element封装表格表单联动组件
 
 ### 组件引用方法
 

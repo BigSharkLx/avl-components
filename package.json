@@ -1,6 +1,6 @@
 {
   "name": "avl-components",
-  "description": "avl中常用组件抽取",
+  "description": "基于vue+element封装表格表单联动组件",
    "keywords": [
     "vue",
     "avl",
@@ -9,7 +9,7 @@
   "bin": {
     "avl-components": "./lib/avl-components.common.js"
   },
-  "version": "0.0.9",
+  "version": "1.0.0",
   "author": "BIgShark<908130255@qq.com>",
   "license": "MIT",
   "private": false,
